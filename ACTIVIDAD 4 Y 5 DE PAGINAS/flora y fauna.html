@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Flora y Fauna</title>
+    <style>
+        body {
+            background-image: url('fondo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        img {
+            margin: 15px;
+        }
+
+        .gif {
+            width: 930px;
+            display: inline-block;
+        }
+
+        .btn {
+            width: 210px;
+            height: auto;
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        .info-section {
+            background-color: rgba(0, 0, 0, 0.6); 
+            padding: 20px;
+            margin: 40px;
+            border-radius: 10px;
+        }
+
+        .banner-vertical {
+            float: left;
+            margin: 0;
+        }
+
+        .banner-vertical img {
+            width: 146px;
+            height: auto;
+            border-radius: 40px;
+        }
+
+        video, audio {
+            display: block;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        button {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        #iframe-local {
+            display: block;
+            margin: 30px auto;
+            border-radius: 10px;
+            border: none;
+            width: 100%;
+            height: 500px;
+        }
+
+        #iframe-externo {
+            display: block;
+            margin: 30px auto;
+            border-radius: 10px;
+            border: none;
+            width: 85%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>   
+    <div style="text-align: center;">
+        <img src="gif dos.gif"
+        onmouseover="this.src='ESTATICA TRES.jpg'"
+        onmouseout="this.src='gif dos.gif'"
+        onclick="this.src='ESTATICA TRES.jpg'" class="gif">
+    </div>
+    <div style="text-align: center;">
+        <a href="file:///C:/Users/DARIEN/OneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/cuidado%20y%20preservacion%20del%20medio%20ambiente.html">
+        <button><img src="reforestacion.jpg" class="btn"></button></a>
+        <a href="file:///C:/Users/DARIEN/OneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/limpieza%20institucional.html">
+        <button><img src="limppieza institucional.jpg" class="btn"></button></a>
+        <a href="file:///C:/Users/DARIEN/OneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/limpieza%20externa.html">
+        <button><img src="limpieza externa.jpg" class="btn"></button></a>
+        <a href="file:///C:/Users/DARIEN/OneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/flora%20y%20fauna.html">
+        <button><img src="flora y fauna.jpg" class="btn"></button></a>
+        <a href="file:///C:/Users/DARIEN/OneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/reciclaje.html">
+        <button><img src="reciclaje.jpg" class="btn"></button></a>
+    </div
+    <iframe id="iframe-local" src="fOneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/reciclaje.html"></iframe>
+   
+
+
+    <iframe id="iframe-local" src="file:///C:/Users/DARIEN/OneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/reciclaje.html"></iframe>
+    <div class="banner-vertical"><img src="banner cuatro.jpg" alt="Banner Vertical"></div>
+
+    <iframe id="iframe-externo" src="https://concepto.de/flora-y-fauna/"></iframe>
+    <div class="info-section">
+        <h2>¿Qué La Flora y Fauna?</h2>
+        <p>La educación ambiental enfocada en la flora y fauna, como cuando los alumnos visitan una zona donde habitan animales en peligro de extinción, es una experiencia educativa muy valiosa. Este tipo de actividades permite que los estudiantes aprendan directamente sobre la biodiversidad, comprendan la importancia de proteger a las especies en riesgo y desarrollen una conexión más profunda con la naturaleza. Durante estas visitas, los alumnos observan de cerca el hábitat natural de diversas especies, reciben información de expertos sobre las causas de su amenaza —como la caza, la destrucción de ecosistemas o el cambio climático— y conocen las acciones que se están llevando a cabo para su conservación. También pueden aprender sobre las plantas autóctonas del lugar y su función en el equilibrio ecológico.</p>
+        <h3>Imagen representativa</h3>
+        <img src="imagen de flora y fauna.jpg">
+    </div>
+</body>
+</html>

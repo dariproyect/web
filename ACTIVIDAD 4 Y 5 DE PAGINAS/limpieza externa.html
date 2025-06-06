@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Limpieza Externa</title>
+    <style>
+        body {
+            background-image: url('fondo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        img {
+            margin: 15px;
+        }
+
+        .gif {
+            width: 930px;
+            display: inline-block;
+        }
+
+        .btn {
+            width: 210px;
+            height: auto;
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        .info-section {
+            background-color: rgba(0, 0, 0, 0.6); 
+            padding: 20px;
+            margin: 40px;
+            border-radius: 10px;
+        }
+
+        .banner-vertical {
+            float: left;
+            margin: 0;
+        }
+
+        .banner-vertical img {
+            width: 146px;
+            height: auto;
+            border-radius: 40px;
+        }
+
+        video, audio {
+            display: block;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        button {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        #iframe-local {
+            display: block;
+            margin: 30px auto;
+            border-radius: 10px;
+            border: none;
+            width: 100%;
+            height: 500px;
+        }
+
+        #iframe-externo {
+            display: block;
+            margin: 30px auto;
+            border-radius: 10px;
+            border: none;
+            width: 85%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>   
+    <div style="text-align: center;">
+        <img src="gif dos.gif"
+        onmouseover="this.src='ESTATICA TRES.jpg'"
+        onmouseout="this.src='gif dos.gif'"
+        onclick="this.src='ESTATICA TRES.jpg'" class="gif">
+    </div>
+    <div style="text-align: center;">
+        <a href="file:///C:/Users/DARIEN/OneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/cuidado%20y%20preservacion%20del%20medio%20ambiente.html">
+        <button><img src="reforestacion.jpg" class="btn"></button></a>
+        <a href="file:///C:/Users/DARIEN/OneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/limpieza%20institucional.html">
+        <button><img src="limppieza institucional.jpg" class="btn"></button></a>
+        <a href="file:///C:/Users/DARIEN/OneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/limpieza%20externa.html">
+        <button><img src="limpieza externa.jpg" class="btn"></button></a>
+        <a href="file:///C:/Users/DARIEN/OneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/flora%20y%20fauna.html">
+        <button><img src="flora y fauna.jpg" class="btn"></button></a>
+        <a href="file:///C:/Users/DARIEN/OneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/reciclaje.html">
+        <button><img src="reciclaje.jpg" class="btn"></button></a>
+    </div>
+    <iframe id="iframe-local" src="file:///C:/Users/DARIEN/OneDrive/Documentos/ACTIVIDAD%204%20Y%205%20DE%20PAGINAS/limpieza%20externa.html"></iframe>
+    <div class="banner-vertical"><img src="banner tres.jpg" alt="Banner Vertical"></div>
+
+    <iframe id="iframe-externo" src="https://oem.com.mx/la-prensa/metropoli/demandan-brigadas-de-limpieza-en-exteriores-de-escuelas-publicas-15636529"></iframe>
+    <div class="info-section">
+        <h2>¿Qué La limpieza externa?</h2>
+        <p>La limpieza externa fuera de la escuela, como recoger basura en el exterior del plantel, es una actividad formativa que busca concienciar a los estudiantes sobre la importancia de cuidar no solo su entorno escolar, sino también los espacios públicos y comunitarios. A través de este tipo de acciones, los alumnos aprenden que el respeto por el medio ambiente no termina en la puerta del aula, sino que se extiende a calles, parques y áreas comunes. Cuando los estudiantes participan en la limpieza externa —por ejemplo, recogiendo basura afuera de la escuela, barriendo banquetas o separando residuos— se promueve una cultura de responsabilidad social, civismo y cooperación. Además, se les enseña que cada persona tiene un papel importante en la construcción de un entorno más limpio, saludable y agradable para todos.</p>
+        <h3>Video informativo</h3>
+        <video width="640" controls>
+            <source src="Limpieza de Colegios.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+        <h3>Audio explicativo</h3>
+        <audio controls>
+            <source src="Como mantener limpio por la escuela_.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+        <h3>Imagen representativa</h3>
+        <img src="imagen de limpieza externa.jpg">
+    </div>
+</body>
+</html>
